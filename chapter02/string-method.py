@@ -6,9 +6,12 @@ print("HELLO".lower())
 
 print("hello".upper())
 
-print("Hello".startwith("H"))
-print("Hello".startwith("He"))
+print("Hello".startswith("H"))
+print("Hello".startswith("He"))
 
-print("Hello".endwith("o"))
-print("Hello".endwith("lo"))
+print("Hello".endswith("o"))
+print("Hello".endswith("lo"))
 
+print("HelloWorld".strip("ld")) #HelloWor
+
+print("HelloWorld".replace("World","Python"))
