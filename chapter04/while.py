@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 # A while statement allows you to execute a block of code repeatedly
-i=10
-while i>0:
-    print(f"i is bigger than 0: {i}")
-    i-=1
+release_year=1991
+correct=False
+while not correct:
+    year=int(input("please input the python first release year:"))
+    if year==release_year:
+        correct=True
+    elif year>release_year:
+        print("too late.")
+    elif year<release_year:
+        print("too early.")
 else:
-    print("i is less or equal 0")
+    print("Exactly. you are right!")
+
