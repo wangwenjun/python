@@ -1,0 +1,11 @@
+list=[]
+print(list,len(list)) #empty list
+
+list=[1,2,3,4,5]
+print(list,len(list)) #integer type list
+
+list=["a","b","c","d"] #string type list
+print(list,len(list))
+
+list=[1,2,3,"Hello",345.34,[1,2,3,"World",5345.34]]
+print(list,len(list))
