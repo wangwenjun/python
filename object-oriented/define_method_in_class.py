@@ -17,7 +17,7 @@ class Person:
         define the method in person class.
     """
     def greeting(self):
-        print("Hello ",self.age)
+        print("Hello ",self.name)
 
 
     def __str__(self):
